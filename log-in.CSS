@@ -1,0 +1,93 @@
+.log-in{
+    margin-top:70px;
+}
+.log-in .bg-log-in {
+    background: url(images/bg2.jpg) no-repeat;
+    background-size:cover;
+    height:600px;
+    width:100%;
+    overflow-x: hidden;
+}
+.log-in .row{
+    padding-left:50px;
+    padding-top:130px;
+    color:#14274E;
+    font-size:20px;
+}
+form{
+    text-align: center;
+    border:1px solid black;
+    width:350px;
+    height:450px;
+    margin-left:130px;
+    padding-top:40px;
+}
+.log-in .row .box{
+    margin:10px;
+    border-radius:15px;
+    border:3px;
+}
+.log-in .row .text{
+    font-size:15px;
+    font-family: 'Quicksand', sans-serif;
+}
+.log-in .row button{
+    border-radius:10px;
+    border:0;
+    background-color:#495579;
+    padding-left:30px;
+    padding-right:30px;
+    color:#F1F6F9;
+    margin-top:10px;
+}
+.log-in button a{
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+}
+.log-in button a:hover{
+    background-color:#495579;
+}
+.log-in p a{
+    color:#14274E;
+    font-size:12px;
+    text-decoration: none;
+}
+.log-in p{
+    margin-top: 10px;
+}
+.log-in .icon i{
+    color:#14274E;
+    font-size:30px;
+    text-decoration: none;
+}
+.log-in .fgp {
+    color:#14274E;
+    font-size:10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+@media screen and (max-width:768px) {
+    .log-in .bg-log-in {
+        background: url(images/bg2.jpg) no-repeat;
+        background-size:cover;
+        height:100%;
+        width: 100%;
+    }
+    .log-in .bg-log-in .info {
+        margin:15px;
+    }
+    .log-in .bg-log-in .info h1{
+        font-size:30px;
+    }
+    .log-in .bg-log-in .info p{
+        font-size:20px;
+    }
+    .log-in .bg-log-in form{
+        margin-top:15px;
+        margin-bottom:20px;
+        font-size:25px;
+        text-align: center;
+        margin-left:30px;
+    }
+}

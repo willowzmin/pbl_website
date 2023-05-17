@@ -1,0 +1,33 @@
+fieldset{
+    width: 240px;
+    text-align: center;
+    border-radius: 15px;
+    display: inline-block;
+    margin-left:  30px; 
+    margin-right: 30px;   
+}
+
+.Card{
+ 
+    text-align: center;   
+    border: 1px black;
+    clear:both;    
+}
+.Card button{
+    color: rgb(251, 253, 255);
+    width: 220px ;
+    height: 30px;
+    background-color:#394867;
+    border:0px;
+    border-radius: 10px;
+    margin-bottom:30px;
+    
+}
+
+button a{
+    text-decoration: none;
+    color: rgb(251, 253, 255);
+}
+i:hover{
+    color: rgb(255, 204, 0);
+}

@@ -1,0 +1,60 @@
+.diseases{
+    margin-top:80px;
+
+}
+.container{
+    margin-bottom:140px;
+    margin-top:15px;
+}
+.d1{
+    background: url(images/Covid19.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.d2{
+    background: url(images/HIV1.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+
+}
+.d3{
+    background: url(images/Malaria.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+
+}
+.d4{
+    background: url(images/Other.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-right: 60px;
+
+}
+.diseases h1{
+    font-family: 'Quicksand', sans-serif;
+}
+.container .row a{
+    text-decoration: none;
+    font-size: 20px; 
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.diseases .row a:hover{
+    color:#4a5e88;
+}
+.col-lg-3{
+    position: relative;
+}
+
+
+

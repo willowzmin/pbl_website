@@ -1,0 +1,32 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    overflow-x:hidden;
+}
+.img1 img{
+    box-shadow:6px 6px 5px rgba(3, 0, 11, 0.243);    
+}
+.text{
+    position: relative;
+    top: 10%;
+    text-align: left;
+}
+.row .text button a{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+.row .text button {
+    border: 0px;
+    padding: 7px;
+    border-radius:10px;
+    background-color: #394867;
+    margin-top: 10px;
+}
+.row .second-page{
+    margin-top: 150px;
+    margin-left:50px;
+    display: inline-block;
+}
+

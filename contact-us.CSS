@@ -1,0 +1,53 @@
+body{
+    overflow-x: hidden;
+}
+.container{
+    margin-top:90px;
+    font-family: 'Quicksand', sans-serif;
+}
+.container .gp{
+    position: absolute;
+    left:90%;
+    bottom:90%;
+}
+.row{
+    border:3px solid black;
+    padding:60px;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+}
+.row h1{
+    font-size:180px;
+    text-align: center;
+}
+.row p{
+    margin-top:90px;
+}
+.container p{
+    color:#14274E;
+}
+.container a{
+    text-decoration: none;
+    color:#14274E;
+}
+.container a:hover{
+    color:maroon;
+}
+@media screen and (max-width:992px){
+    .container p{
+        margin-left:30px;
+    }
+    .container .gp{
+        position: absolute;
+        left:75%;
+        bottom:90%;
+    }
+    .row{
+        border:0px;
+    }
+    .row h1{
+        font-size:90px;
+        text-align: center;
+        text-decoration: underline 3px;
+    }
+}

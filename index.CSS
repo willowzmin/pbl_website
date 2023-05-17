@@ -1,0 +1,320 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    overflow-x:hidden;
+}
+nav{
+    position:fixed;
+    background-color:#14274E;
+    height:70px;
+    left:0;right:0;top:0;
+    width: 100%;
+    z-index:1;
+}
+nav ul {
+    margin-top:15px;
+    list-style-type: none;
+    margin-right:30px;
+}
+nav ul li{
+    display: inline-block;
+    margin-left:20px;
+}
+nav ul .space{
+    display: inline-block;
+    width:550px;
+}
+nav ul li a{
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+}
+nav ul li button{
+    border:0;
+    padding:5px;
+    border-radius:10px;
+    background-color:#F1F6F9;
+}
+nav ul li button a{
+    padding:0;
+    color:#14274E;
+}
+nav li button a:link{
+    color:#14274E;
+}
+nav button a:hover{
+    background-color:#14274E;
+}
+nav button a:hover{
+    background-color:#edeff3;
+}
+nav .icon i{
+    float:left;
+    color:white;
+    font-size:35px;
+    font-weight:bold;
+    line-height:70px;
+    margin-left:30px;
+}
+nav i:hover{
+    color:#9BA4B4
+}
+.checkbtn{
+    float: right;
+    color:white;
+    font-size:40px;
+    line-height:65px;
+    margin-right:30px;
+    display:none;
+}
+#check{
+    display: none;
+}
+@media screen and (max-width:992px){
+    .checkbtn{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        left:-100%;
+        width:100%;
+        height:100vh;
+        background-color:#9BA4B4;
+        text-align: center;
+        padding:0px;
+        top:50px;
+    }
+    nav ul li{
+        display: block;
+        margin-top:30px;
+    }
+    nav ul .space{
+        display: none;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+    a:hover{
+        color:#DCD6F7;
+    }
+}
+.maintain .row h1 {
+    margin-top:80px;
+    text-align: center;
+    font-size: 45px;
+}
+.maintain [class*="col"]{
+    margin-top:120px;
+    text-align: center;
+    display: inline-block; 
+}
+header{
+    padding-top:70px;
+}
+header .bg-welcome-page{
+    background: url(images/Bg-home-page.jpg) no-repeat;
+    background-size:cover;
+    height:600px;
+    width:100%;
+    position: relative;
+    right:0;
+    left:0;
+}
+header .bg-welcome-page .text{
+    position: absolute;
+    left:50px;
+    top:100px;
+    text-align:left;
+}
+header .bg-welcome-page .text h1{
+    font-size:130px;
+    color:#edeff3;
+    font-weight: bold;
+}
+header .bg-welcome-page .text h1 span{
+    color:#14274E;
+}
+header .bg-welcome-page .text h3{
+    color:#F1F6F9;
+}
+header .bg-welcome-page .text button{
+    border:0;
+    padding:20px;
+    background-color:#495579;
+    margin-top:10px;
+    margin-left:5px;
+    color:#F1F6F9;
+}
+header .bg-welcome-page .text button a{
+    text-decoration: none;
+    color:#F1F6F9;
+}
+header button a:hover{
+    background-color: #495579;
+}
+@media screen and (max-width:992px) {
+    header .bg-welcome-page{
+        background: url(images/Bg-home-page.jpg) no-repeat;
+        background-size:cover;
+        height:600px;
+    }
+    header .bg-welcome-page .text h1{
+        font-size:80px;
+        color:#BAD7E9
+    }
+    header .bg-welcome-page .text h1 span{
+        color:#FFFBEB
+    }
+    header .bg-welcome-page .text h3{
+        color:#14274E;
+    }
+}
+@media screen and (max-width:1300px){
+    nav ul .space{
+        width:300px;
+    }
+}
+@media screen and (max-width:1100px){
+    nav ul .space{
+        width:210px;
+    }
+}
+.infectious-diseases1{
+    margin:150px;
+}
+.infectious-diseases1 img{
+    display: block;
+    margin-top: 20px;
+}
+
+.infectious-diseases1 .text{
+    position: relative;
+    top: 30%;
+    right: 10%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.log-in{
+    margin-top:70px;
+}
+.log-in .bg-log-in {
+    background: url(images/A.jpg) no-repeat;
+    background-size:cover;
+    height:600px;
+    width:100%;
+    overflow-x: hidden;
+}
+.log-in .row{
+    padding-left:50px;
+    padding-top:130px;
+    color:#14274E;
+    font-size:20px;
+}
+form{
+    text-align: center;
+    border:1px solid black;
+    width:350px;
+    height:400px;
+    margin-left:130px;
+    padding-top:40px;
+}
+.log-in .row .box{
+    margin:10px;
+    border-radius:15px;
+    border:3px;
+}
+.log-in .row .text{
+    font-size:15px;
+    font-family: 'Quicksand', sans-serif;
+}
+.log-in .row button{
+    border-radius:10px;
+    border:0;
+    background-color:#495579;
+    padding-left:30px;
+    padding-right:30px;
+    color:#F1F6F9;
+    margin-top:10px;
+}
+.log-in button a{
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+}
+.log-in button a:hover{
+    background-color:#495579;
+}
+.log-in p a{
+    color:#14274E;
+    font-size:12px;
+    text-decoration: none;
+}
+.log-in p{
+    margin-top: 10px;
+}
+.log-in .icon i{
+    color:#14274E;
+    font-size:30px;
+    text-decoration: none;
+}
+.log-in .fgp {
+    color:#14274E;
+    font-size:10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+@media screen and (max-width:768px) {
+    .infectious-diseases1 .row img{
+        margin-left:-40px;
+    }
+    .infectious-diseases1 .text{
+        padding-left:20px;
+    }
+    .log-in .bg-log-in {
+        background: url(images/A.jpg) no-repeat;
+        background-size:cover;
+        height:100%;
+        width: 100%;
+    }
+    .log-in .bg-log-in .info {
+        margin:15px;
+    }
+    .log-in .bg-log-in .info h1{
+        font-size:30px;
+    }
+    .log-in .bg-log-in .info p{
+        font-size:20px; 
+    }
+    .log-in .bg-log-in form{
+        margin-top:15px;
+        margin-bottom:20px;
+        font-size:25px;
+        text-align: center;
+        margin-left:30px;
+    }
+}
+footer .row .text{
+    margin:40px;
+}
+footer {
+    background-color: #F1F6F9;
+}
+footer .row .link{
+    margin-top:30px;
+    margin-left:90px;
+}
+footer .row a{
+    text-decoration: none;
+    color: #14274E;
+    padding:20px;
+}
+footer .row .bottom .col-md-6{
+    margin-left:30px;
+}
+@media screen and (max-width:768px){
+    footer .row .link{
+        margin-left: 2px;
+        padding:5px;
+        font-size:15px;
+    }
+}
